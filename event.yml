@@ -1,0 +1,23 @@
+spring:
+  profiles: default
+feature:
+  x:
+    emable: true
+---
+spring:
+  profiles: production
+feature:
+  x:
+    emable: true
+---
+spring:
+  profiles: docker
+feature:
+  x:
+    emable: true
+---
+spring:
+  profiles: development
+feature:
+  x:
+    emable: true
